@@ -1,2 +1,11 @@
-# Judicial_Judgements_Reader
-A practical reader/viewer about TW Judicial Judgements
+# 司法裁判書閱讀器
+
+建立一個對民眾友善的司法院裁判書閱讀器
+
+1. 司法裁判書結構化
+2. 查詢系統優化
+3. 閱讀器
+
+
+
+
