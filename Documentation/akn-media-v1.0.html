@@ -1,0 +1,1411 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<base href="http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.html">
+<title>Akoma Ntoso Media Type Version 1.0</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"American Typewriter";}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+h1
+	{margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.3in;
+	text-indent:-.3in;
+	page-break-before:always;
+	page-break-after:avoid;
+	border:none;
+	padding:0in;
+	font-size:18.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+h2
+	{mso-style-name:"Heading 2\,H2";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.4in;
+	text-indent:-.4in;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+h3
+	{mso-style-name:"Heading 3\,H3";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+h4
+	{mso-style-name:"Heading 4\,H4";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.6in;
+	text-indent:-.6in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+h5
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.7in;
+	text-indent:-.7in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+h6
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.8in;
+	text-indent:-.8in;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.9in;
+	text-indent:-.9in;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	text-indent:-1.0in;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.1in;
+	text-indent:-1.1in;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:12.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:24.0pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:48.0pt;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:60.0pt;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:1.0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"Footnote Text Char";
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+span.MsoEndnoteReference
+	{vertical-align:super;}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{mso-style-link:"Endnote Text Char";
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet
+	{margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListBullet2, li.MsoListBullet2, div.MsoListBullet2
+	{margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.5in;
+	text-indent:-.25in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	border:none;
+	padding:0in;
+	font-size:24.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	border:none;
+	padding:0in;
+	font-size:18.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+p.MsoNoteHeading, li.MsoNoteHeading, div.MsoNoteHeading
+	{margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+a:link, span.MsoHyperlink
+	{color:#0000EE;
+	text-decoration:none;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial Unicode MS","sans-serif";}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial Unicode MS","sans-serif";}
+tt
+	{font-family:"Arial Unicode MS","sans-serif";}
+p.Titlepageinfo, li.Titlepageinfo, div.Titlepageinfo
+	{mso-style-name:"Title page info";
+	margin:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+p.Titlepageinfodescription, li.Titlepageinfodescription, div.Titlepageinfodescription
+	{mso-style-name:"Title page info description";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.5in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.TitlepageinfodescriptionCxSpFirst, li.TitlepageinfodescriptionCxSpFirst, div.TitlepageinfodescriptionCxSpFirst
+	{mso-style-name:"Title page info descriptionCxSpFirst";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.TitlepageinfodescriptionCxSpMiddle, li.TitlepageinfodescriptionCxSpMiddle, div.TitlepageinfodescriptionCxSpMiddle
+	{mso-style-name:"Title page info descriptionCxSpMiddle";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.TitlepageinfodescriptionCxSpLast, li.TitlepageinfodescriptionCxSpLast, div.TitlepageinfodescriptionCxSpLast
+	{mso-style-name:"Title page info descriptionCxSpLast";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.5in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.Contributor, li.Contributor, div.Contributor
+	{mso-style-name:Contributor;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.5in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.ContributorCxSpFirst, li.ContributorCxSpFirst, div.ContributorCxSpFirst
+	{mso-style-name:ContributorCxSpFirst;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.ContributorCxSpMiddle, li.ContributorCxSpMiddle, div.ContributorCxSpMiddle
+	{mso-style-name:ContributorCxSpMiddle;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.ContributorCxSpLast, li.ContributorCxSpLast, div.ContributorCxSpLast
+	{mso-style-name:ContributorCxSpLast;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.5in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.Legalnotice, li.Legalnotice, div.Legalnotice
+	{mso-style-name:"Legal notice";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.LegalnoticeCxSpFirst, li.LegalnoticeCxSpFirst, div.LegalnoticeCxSpFirst
+	{mso-style-name:"Legal noticeCxSpFirst";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.LegalnoticeCxSpMiddle, li.LegalnoticeCxSpMiddle, div.LegalnoticeCxSpMiddle
+	{mso-style-name:"Legal noticeCxSpMiddle";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.LegalnoticeCxSpLast, li.LegalnoticeCxSpLast, div.LegalnoticeCxSpLast
+	{mso-style-name:"Legal noticeCxSpLast";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+span.Datatype
+	{mso-style-name:Datatype;
+	font-family:"Courier New";}
+p.Code, li.Code, div.Code
+	{mso-style-name:Code;
+	margin-top:0in;
+	margin-right:.3in;
+	margin-bottom:0in;
+	margin-left:.3in;
+	margin-bottom:.0001pt;
+	background:#D9D9D9;
+	border:none;
+	padding:0in;
+	font-size:9.0pt;
+	font-family:"Courier New";}
+p.AppendixHeading2, li.AppendixHeading2, div.AppendixHeading2
+	{mso-style-name:AppendixHeading2;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.4in;
+	text-indent:-.4in;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+span.Element
+	{mso-style-name:Element;
+	font-family:"Courier New";}
+span.Attribute
+	{mso-style-name:Attribute;
+	font-family:"Courier New";}
+span.Keyword
+	{mso-style-name:Keyword;
+	font-family:"Courier New";}
+p.Note, li.Note, div.Note
+	{mso-style-name:Note;
+	margin-top:6.0pt;
+	margin-right:.5in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.Definitionterm, li.Definitionterm, div.Definitionterm
+	{mso-style-name:"Definition term";
+	margin-top:4.0pt;
+	margin-right:2.0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.Definition, li.Definition, div.Definition
+	{mso-style-name:Definition;
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.Ref, li.Ref, div.Ref
+	{mso-style-name:Ref;
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:1.5in;
+	text-indent:-1.25in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+p.AppendixHeading1, li.AppendixHeading1, div.AppendixHeading1
+	{mso-style-name:AppendixHeading1;
+	margin-right:0in;
+	margin-left:.25in;
+	text-indent:-.25in;
+	page-break-before:always;
+	page-break-after:avoid;
+	border:none;
+	padding:0in;
+	font-size:18.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+span.Refterm
+	{mso-style-name:"Ref term";
+	font-weight:bold;}
+p.Example, li.Example, div.Example
+	{mso-style-name:Example;
+	margin-top:0in;
+	margin-right:.3in;
+	margin-bottom:0in;
+	margin-left:.3in;
+	margin-bottom:.0001pt;
+	background:#E6E6E6;
+	font-size:9.0pt;
+	font-family:"Courier New";}
+span.CODEtemp
+	{mso-style-name:"CODE temp";
+	font-family:"Courier New";}
+p.Codesmall, li.Codesmall, div.Codesmall
+	{mso-style-name:"Code small";
+	margin-top:0in;
+	margin-right:.3in;
+	margin-bottom:0in;
+	margin-left:.3in;
+	margin-bottom:.0001pt;
+	background:#E6E6E6;
+	border:none;
+	padding:0in;
+	font-size:8.0pt;
+	font-family:"Courier New";}
+p.Examplesmall, li.Examplesmall, div.Examplesmall
+	{mso-style-name:"Example small";
+	margin-top:0in;
+	margin-right:.3in;
+	margin-bottom:0in;
+	margin-left:.3in;
+	margin-bottom:.0001pt;
+	background:#E6E6E6;
+	font-size:8.0pt;
+	font-family:"Courier New";}
+span.Variable
+	{mso-style-name:Variable;
+	font-style:italic;}
+span.FootnoteTextChar
+	{mso-style-name:"Footnote Text Char";
+	mso-style-link:"Footnote Text";
+	font-family:"Arial","sans-serif";}
+p.RelatedWork, li.RelatedWork, div.RelatedWork
+	{mso-style-name:"Related Work";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.RelatedWorkCxSpFirst, li.RelatedWorkCxSpFirst, div.RelatedWorkCxSpFirst
+	{mso-style-name:"Related WorkCxSpFirst";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.75in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.RelatedWorkCxSpMiddle, li.RelatedWorkCxSpMiddle, div.RelatedWorkCxSpMiddle
+	{mso-style-name:"Related WorkCxSpMiddle";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.75in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.RelatedWorkCxSpLast, li.RelatedWorkCxSpLast, div.RelatedWorkCxSpLast
+	{mso-style-name:"Related WorkCxSpLast";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.Abstract, li.Abstract, div.Abstract
+	{mso-style-name:Abstract;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.5in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.Notices, li.Notices, div.Notices
+	{mso-style-name:Notices;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-before:always;
+	border:none;
+	padding:0in;
+	font-size:18.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+p.TextBody, li.TextBody, div.TextBody
+	{mso-style-name:"Text Body";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.AppendixHeading3, li.AppendixHeading3, div.AppendixHeading3
+	{mso-style-name:AppendixHeading3;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+span.EndnoteTextChar
+	{mso-style-name:"Endnote Text Char";
+	mso-style-link:"Endnote Text";
+	font-family:"Arial","sans-serif";}
+p.AppendixHeading4, li.AppendixHeading4, div.AppendixHeading4
+	{mso-style-name:AppendixHeading4;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;}
+p.AppendixHeading5, li.AppendixHeading5, div.AppendixHeading5
+	{mso-style-name:AppendixHeading5;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.7in;
+	text-indent:-.7in;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:#3B006F;
+	font-weight:bold;
+	font-style:italic;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in .5in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in .5in 1.0in;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link="#0000EE" vlink=purple>
+
+<div class=WordSection1>
+
+<p class=MsoHeader><img width=203 height=54
+src="akn-media-v1.0-csprd01_files/image001.jpg"></p>
+
+<div style='border:none;border-top:solid gray 1.0pt;padding:1.0pt 0in 0in 0in'>
+
+<p class=MsoTitle>Akoma Ntoso Media Type Version 1.0</p>
+
+<p class=MsoSubtitle>Committee Specification Draft 01 /<br>
+Public Review Draft 01</p>
+
+<p class=MsoSubtitle>25 March 2015</p>
+
+</div>
+
+<p class=Titlepageinfo><span style='font-size:12.0pt'>Specification URIs</span></p>
+
+<p class=Titlepageinfo>This version:</p>
+
+<p class=TitlepageinfodescriptionCxSpFirst><span class=MsoHyperlink><span
+style='color:windowtext'><a
+href="http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.html">http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.html</a>
+(Authoritative)</span></span></p>
+
+<p class=TitlepageinfodescriptionCxSpMiddle><span class=MsoHyperlink><span
+style='color:windowtext'><a
+href="http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.doc">http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.doc</a></span></span></p>
+
+<p class=TitlepageinfodescriptionCxSpLast><span class=MsoHyperlink><span
+style='color:windowtext'><a
+href="http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.pdf">http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.pdf</a></span></span></p>
+
+<p class=Titlepageinfo>Previous version:</p>
+
+<p class=Titlepageinfodescription><span class=MsoHyperlink><span
+style='color:windowtext'>N/A</span></span></p>
+
+<p class=Titlepageinfo>Latest version:</p>
+
+<p class=TitlepageinfodescriptionCxSpFirst><span class=MsoHyperlink><span
+style='color:windowtext'><a
+href="http://docs.oasis-open.org/legaldocml/akn-media/v1.0/akn-media-v1.0.html">http://docs.oasis-open.org/legaldocml/akn-media/v1.0/akn-media-v1.0.html</a>
+(Authoritative)</span></span></p>
+
+<p class=TitlepageinfodescriptionCxSpMiddle><span class=MsoHyperlink><span
+style='color:windowtext'><a
+href="http://docs.oasis-open.org/legaldocml/akn-media/v1.0/akn-media-v1.0.doc">http://docs.oasis-open.org/legaldocml/akn-media/v1.0/akn-media-v1.0.doc</a></span></span></p>
+
+<p class=TitlepageinfodescriptionCxSpLast><span class=MsoHyperlink><span
+style='color:windowtext'><a
+href="http://docs.oasis-open.org/legaldocml/akn-media/v1.0/akn-media-v1.0.pdf">http://docs.oasis-open.org/legaldocml/akn-media/v1.0/akn-media-v1.0.pdf</a></span></span></p>
+
+<p class=Titlepageinfo>Technical Committee:</p>
+
+<p class=Titlepageinfodescription><span class=MsoHyperlink><span
+style='color:windowtext'><a
+href="https://www.oasis-open.org/committees/legaldocml/">OASIS LegalDocumentML
+(LegalDocML) TC</a></span></span></p>
+
+<p class=Titlepageinfo>Chairs:</p>
+
+<p class=ContributorCxSpFirst>Fabio Vitali (<span class=MsoHyperlink><span
+style='color:windowtext'><a href="mailto:fabio@cs.unibo.it">fabio@cs.unibo.it</a></span></span>),
+<span class=MsoHyperlink><span style='color:windowtext'><a
+href="http://www.cirsfid.unibo.it/">University of Bologna-CIRSFID</a></span></span></p>
+
+<p class=ContributorCxSpLast>Monica Palmirani (<span class=MsoHyperlink><span
+style='color:windowtext'><a href="mailto:monica.palmirani@unibo.it">monica.palmirani@unibo.it</a></span></span>),
+<span class=MsoHyperlink><span style='color:windowtext'><a
+href="http://www.cirsfid.unibo.it/">University of Bologna-CIRSFID</a></span></span></p>
+
+<p class=Titlepageinfo>Editors:</p>
+
+<p class=ContributorCxSpFirst><span lang=IT>Fabio Vitali (</span><span
+class=MsoHyperlink><span style='color:windowtext'><a
+href="mailto:fabio@cs.unibo.it"><span lang=IT>fabio@cs.unibo.it</span></a></span></span><span
+lang=IT>), </span><span class=MsoHyperlink><span style='color:windowtext'><a
+href="http://www.cirsfid.unibo.it/"><span lang=IT>University of Bologna-CIRSFID</span></a></span></span></p>
+
+<p class=ContributorCxSpLast><span lang=IT>Monica Palmirani (</span><span
+class=MsoHyperlink><span style='color:windowtext'><a
+href="mailto:monica.palmirani@unibo.it"><span lang=IT>monica.palmirani@unibo.it</span></a></span></span><span
+lang=IT>), </span><span class=MsoHyperlink><span style='color:windowtext'><a
+href="http://www.cirsfid.unibo.it/"><span lang=IT>University of Bologna-CIRSFID</span></a></span></span></p>
+
+<p class=Titlepageinfo>Related work:</p>
+
+<p class=Titlepageinfodescription>This specification is related to:</p>
+
+<p class=RelatedWorkCxSpFirst><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i>Akoma Ntoso Version 1.0 Part 1: XML Vocabulary</i>. <a
+href="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd01/part1-vocabulary/akn-core-v1.0-csprd01-part1-vocabulary.html">http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd01/part1-vocabulary/akn-core-v1.0-csprd01-part1-vocabulary.html</a>.</p>
+
+<p class=RelatedWorkCxSpMiddle><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i>Akoma Ntoso Version 1.0 Part 2: Specifications</i>. <a
+href="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd01/part2-specs/akn-core-v1.0-csprd01-part2-specs.html">http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd01/part2-specs/akn-core-v1.0-csprd01-part2-specs.html</a>.</p>
+
+<p class=RelatedWorkCxSpLast><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Akoma Ntoso Version 1.0 XML schemas. <a
+href="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd01/part2-specs/schemas/">http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd01/part2-specs/schemas/</a>.</p>
+
+<p class=Titlepageinfo>Abstract:</p>
+
+<p class=Abstract>This document contains the relevant information for the
+registration of the Akoma Ntoso media type (akn+xml) with IANA.</p>
+
+<p class=Titlepageinfo>Status:</p>
+
+<p class=Abstract>This document was last revised or approved by the OASIS
+LegalDocumentML (LegalDocML) TC on the above date. The level of approval is
+also listed above. Check the “Latest version” location noted above for possible
+later revisions of this document. Any other numbered Versions and other technical
+work produced by the Technical Committee (TC) are listed at <a
+href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml#technical">https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml#technical</a>.</p>
+
+<p class=Abstract>TC members should send comments on this specification to the
+TC’s email list. Others should send comments to the TC’s public comment list,
+after subscribing to it by following the instructions at the “<span
+class=MsoHyperlink><span style='color:windowtext'><a
+href="https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=legaldocml">Send
+A Comment</a></span></span>” button on the TC’s web page at <span
+class=MsoHyperlink><span style='color:windowtext'><a
+href="https://www.oasis-open.org/committees/legaldocml/">https://www.oasis-open.org/committees/legaldocml/</a></span></span><span
+class=MsoHyperlink><span style='color:black'>.</span></span></p>
+
+<p class=Abstract>For information on whether any patents have been disclosed
+that may be essential to implementing this specification, and any offers of
+patent licensing terms, please refer to the Intellectual Property Rights
+section of the TC’s web page (<span class=MsoHyperlink><span style='color:windowtext'><a
+href="https://www.oasis-open.org/committees/legaldocml/ipr.php">https://www.oasis-open.org/committees/legaldocml/ipr.php</a></span></span><span
+class=MsoHyperlink><span style='color:black'>).</span></span></p>
+
+<p class=Titlepageinfo>Citation format:</p>
+
+<p class=Abstract>When referencing this specification the following citation
+format should be used:</p>
+
+<p class=Abstract><span class=Refterm>[AkomaNtosoMedia-v1.0]</span></p>
+
+<p class=Abstract><i>Akoma Ntoso Media Type Version 1.0</i>. Edited by Fabio
+Vitali and Monica Palmirani. 25 March 2015. OASIS Committee Specification Draft
+01 / Public Review Draft 01. <span class=MsoHyperlink><span style='color:windowtext'><a
+href="http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.html">http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.html</a>.
+</span></span>Latest version: <span class=MsoHyperlink><span style='color:windowtext'><a
+href="http://docs.oasis-open.org/legaldocml/akn-media/v1.0/akn-media-v1.0.html">http://docs.oasis-open.org/legaldocml/akn-media/v1.0/akn-media-v1.0.html</a>.</span></span></p>
+
+<p class=Abstract>&nbsp;</p>
+
+<div style='border:none;border-top:solid gray 1.0pt;padding:1.0pt 0in 0in 0in'>
+
+<p class=Notices>Notices</p>
+
+</div>
+
+<p class=MsoNormal>Copyright © OASIS Open 2015. All Rights Reserved.</p>
+
+<p class=MsoNormal>All capitalized terms in the following text have the
+meanings assigned to them in the OASIS Intellectual Property Rights Policy (the
+&quot;OASIS IPR Policy&quot;). The full <a
+href="https://www.oasis-open.org/policies-guidelines/ipr">Policy</a> may be
+found at the OASIS website.</p>
+
+<p class=MsoNormal>This document and translations of it may be copied and
+furnished to others, and derivative works that comment on or otherwise explain
+it or assist in its implementation may be prepared, copied, published, and
+distributed, in whole or in part, without restriction of any kind, provided
+that the above copyright notice and this section are included on all such
+copies and derivative works. However, this document itself may not be modified
+in any way, including by removing the copyright notice or references to OASIS,
+except as needed for the purpose of developing any document or deliverable
+produced by an OASIS Technical Committee (in which case the rules applicable to
+copyrights, as set forth in the OASIS IPR Policy, must be followed) or as
+required to translate it into languages other than English.</p>
+
+<p class=MsoNormal>The limited permissions granted above are perpetual and will
+not be revoked by OASIS or its successors or assigns.</p>
+
+<p class=MsoNormal>This document and the information contained herein is
+provided on an &quot;AS IS&quot; basis and OASIS DISCLAIMS ALL WARRANTIES,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF
+THE INFORMATION HEREIN WILL NOT INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED
+WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.</p>
+
+<p class=MsoNormal>OASIS requests that any OASIS Party or any other party that
+believes it has patent claims that would necessarily be infringed by
+implementations of this OASIS Committee Specification or OASIS Standard, to
+notify OASIS TC Administrator and provide an indication of its willingness to
+grant patent licenses to such patent claims in a manner consistent with the IPR
+Mode of the OASIS Technical Committee that produced this specification.</p>
+
+<p class=MsoNormal>OASIS invites any party to contact the OASIS TC
+Administrator if it is aware of a claim of ownership of any patent claims that
+would necessarily be infringed by implementations of this specification by a
+patent holder that is not willing to provide a license to such patent claims in
+a manner consistent with the IPR Mode of the OASIS Technical Committee that
+produced this specification. OASIS may include such claims on its website, but
+disclaims any obligation to do so.</p>
+
+<p class=MsoNormal>OASIS takes no position regarding the validity or scope of
+any intellectual property or other rights that might be claimed to pertain to
+the implementation or use of the technology described in this document or the
+extent to which any license under such rights might or might not be available;
+neither does it represent that it has made any effort to identify any such
+rights. Information on OASIS' procedures with respect to rights in any document
+or deliverable produced by an OASIS Technical Committee can be found on the
+OASIS website. Copies of claims of rights made available for publication and
+any assurances of licenses to be made available, or the result of an attempt
+made to obtain a general license or permission for the use of such proprietary
+rights by implementers or users of this OASIS Committee Specification or OASIS
+Standard, can be obtained from the OASIS TC Administrator. OASIS makes no
+representation that any information or list of intellectual property rights
+will at any time be complete, or that any claims in such list are, in fact,
+Essential Claims.</p>
+
+<p class=MsoNormal>The name &quot;OASIS&quot; is a trademark of <a
+href="https://www.oasis-open.org/">OASIS</a>, the owner and developer of this
+specification, and should be used only to refer to the organization and its
+official outputs. OASIS welcomes reference to, and implementation and use of,
+specifications, while reserving the right to enforce its marks against
+misleading uses. Please see <span class=MsoHyperlink><a
+href="https://www.oasis-open.org/policies-guidelines/trademark">https://www.oasis-open.org/policies-guidelines/trademark</a></span>
+for above guidance.</p>
+
+<div style='border:none;border-top:solid gray 1.0pt;padding:1.0pt 0in 0in 0in'>
+
+<p class=Notices>Table of Contents</p>
+
+</div>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc417907367">1<span
+style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:windowtext'>        </span>Introduction<span
+style='color:windowtext;display:none'>. </span><span
+style='color:windowtext;display:none'>5</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907368">1.1
+Terminology<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>5</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907369">1.2
+Normative References<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>5</span></a></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc417907370">2<span
+style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:windowtext'>        </span>IANA
+Considerations<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>6</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907371">2.1 Encoding
+considerations<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>6</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907372">2.2 Security
+considerations<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>6</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907373">2.3
+Interoperability considerations<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>6</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907374"><span
+lang=IT>2.4 Published specification</span><span style='color:windowtext;
+display:none'>. </span><span
+style='color:windowtext;display:none'>6</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907375">2.5
+Applications which use this media<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>6</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907376">2.6 Fragment
+identifier considerations:<span style='color:windowtext;display:none'> </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907377">2.7
+Restrictions on usage<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907378">2.8
+Provisional registration<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907379">2.9
+Additional information<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907380">2.10
+Preliminary Community Review<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907381">2.11
+Intended usage<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907382">2.12 Persons
+to contact for further information :<span style='color:windowtext;display:none'> </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><a href="#_Toc417907383">2.13
+Author/Change controllers<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><a href="#_Toc417907384">2.13.1
+Authors<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><a href="#_Toc417907385">2.13.2
+Change Controllers<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>7</span></a></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc417907386">3<span
+style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:windowtext'>        </span>Conformance<span
+style='color:windowtext;display:none'>. </span><span
+style='color:windowtext;display:none'>8</span></a></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc417907387">Appendix A.
+Acknowledgments<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>9</span></a></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><a href="#_Toc417907388">Appendix B.
+Revision History<span style='color:windowtext;display:none'>. </span><span style='color:windowtext;display:none'>10</span></a></span></p>
+
+<p class=TextBody>&nbsp;</p>
+
+<p class=TextBody>&nbsp;</p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Arial","sans-serif"'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<div class=WordSection2>
+
+<div style='border:none;border-top:solid gray 1.0pt;padding:6.0pt 0in 0in 0in'>
+
+<h1><a name="_Toc417907367"></a><a name="_Toc288838211">1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Introduction</a></h1>
+
+</div>
+
+<h2><a name="_Toc417907368"></a><a name="_Toc288838212"></a><a
+name="_Toc287332007"></a><a name="_Toc85472893">1.1 Terminology</a></h2>
+
+<p class=MsoNormal>The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL
+NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this
+document are to be interpreted as described in <span class=Refterm>[RFC2119]</span>.</p>
+
+<h2><a name="_Toc417907369"></a><a name="_Toc288838213"></a><a
+name="_Toc287332008"></a><a name="_Toc85472894"></a><a name="_Toc12011611"></a><a
+name="_Ref7502892">1.2 Normative</a> References</h2>
+
+<p class=Ref><a name=rfc2119><span class=Refterm>[RFC2119]</span></a>               Bradner,
+S., “Key words for use in RFCs to Indicate Requirement Levels”, BCP 14, RFC
+2119, March 1997. <a href="http://www.ietf.org/rfc/rfc2119.txt">http://www.ietf.org/rfc/rfc2119.txt</a>.</p>
+
+<p class=Ref><span class=Refterm>[RFC3986]</span>               Berners-Lee T.,
+Fielding R., Masinter, L.. “Uniform Resource Identifier (URI): Generic Syntax”,
+RFC 3986, January 2005. <a href="http://www.ietf.org/rfc/rfc3986.txt">http://www.ietf.org/rfc/rfc3986.txt</a>.          </p>
+
+<p class=Ref><span class=Refterm>[RFC7303]</span>               Thompson, H.,
+Lilley, C. “XML Media Types”, RFC 7303, July 2014. <a
+href="http://www.ietf.org/rfc/rfc7303.txt">http://www.ietf.org/rfc/rfc7303.txt</a>.</p>
+
+<div style='border:none;border-top:solid gray 1.0pt;padding:6.0pt 0in 0in 0in'>
+
+<h1><a name="_Toc417907370"></a><a name="_Toc288838214">2<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>IANA
+Considerations</a></h1>
+
+</div>
+
+<p class=MsoNormal>This information has been submitted to the Internet
+Engineering Steering Group (IESG) for review, approval, and registration with
+IANA. </p>
+
+<p class=MsoNormal><b>MIME media type name</b> : Application</p>
+
+<p class=MsoNormal><b>MIME subtype name</b> : akn+xml</p>
+
+<p class=MsoNormal><b>Required parameters </b>: None</p>
+
+<p class=MsoNormal><b>Optional parameters</b> :</p>
+
+<p class=MsoNormal><tt><span style='font-family:"American Typewriter";
+color:#C0504D'>charset</span></tt></p>
+
+<p class=MsoNormal style='margin-left:.4in'>with identical semantics to the
+charset parameter of the application/xml media type as specified in [RFC 7303].</p>
+
+<h2><a name="_Toc417907371"></a><a name="_Toc288838215">2.1 Encoding
+considerations</a> </h2>
+
+<p class=MsoNormal>Identical to those for 'application/xml'. See [RFC7303],
+Section 3.2.</p>
+
+<h2><a name="_Toc417907372"></a><a name="_Toc288838216">2.2 Security
+considerations</a></h2>
+
+<p class=MsoNormal>Since this media type uses the &quot;+xml&quot; convention,
+it shares the security considerations described in Section 10 of [RFC7303],
+Akoma Ntoso documents may contain arbitrary URIs. Hence the security issues of
+[RFC3986], Section 7, apply.</p>
+
+<p class=MsoNormal>Akoma Ntoso documents may contain arbitrary content within
+specific elements of the XML stream. This could include executable code
+injected by malicious agents. Yet, there is no requirement that such content is
+actually recognized and executed on the receiving end, and receiving agents
+MUST ignore executable content coming from unsecured channels and/or unknown
+sources.  </p>
+
+<p class=MsoNormal>Akoma Ntoso documents provide their own means to deal with
+integrity requirements for content, under the guise of XML digital signatures
+on the whole or individual parts of the content. With regard to privacy
+requirements, most of the Akoma Ntoso documents are in fact of public nature
+and possess no privacy requirements. Whenever the providing agent is sending
+confidential documents or containing parts with a different degree of
+confidentiality, it MUST adopt secure transmission channels such as SSL/TLS,
+and MAY adopt in addition further mechanisms such as XML encryption on the confidential
+parts of the content.</p>
+
+<h2><a name="_Toc417907373"></a><a name="_Toc288838217">2.3 Interoperability
+considerations</a></h2>
+
+<p class=TextBody>This specification describes processing semantics that
+dictate behavior that must be followed when dealing with, among other things,
+unrecognized elements. Since Akoma Ntoso is designed to be extensible in
+specific elements, &quot;application/akn+xml&quot; processors MAY expect that
+content received is well-formed XML, but processors SHOULD NOT assume that the
+content is valid Akoma Ntoso or expect to recognize all of the elements and
+attributes in the document.</p>
+
+<h2><a name="_Toc417907374"></a><a name="_Toc288838218"><span lang=IT>2.4 </span><span
+lang=IT>Published specification</span></a></h2>
+
+<p class=MsoNormal><a
+href="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/akn-core-v1.0-part1-vocabulary.html"><span
+lang=IT>http://docs.oasis-open.org/legaldocml/akn-core/v1.0/akn-core-v1.0-part1-vocabulary.html</span></a></p>
+
+<h2><a name="_Toc417907375"></a><a name="_Toc288838219">2.5 Applications which
+use this media</a></h2>
+
+<p class=MsoNormal>Akoma Ntoso documents are created, accepted and managed by a
+number of tools in use by parliaments and other entities that are active in the
+legal XML domain. These include document management systems, legal drafting
+tools, URI resolvers and format converters.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The necessity of this media types arises with those
+institutions that have more than one XML data format for their legal documents,
+and that want to add support for Akoma Ntoso, since by examining the request
+they need to be able to determine the specific XML vocabulary to use for the
+response.</p>
+
+<h2><a name="_Toc417907376"></a><a name="_Toc288838220">2.6 Fragment identifier
+considerations:</a> </h2>
+
+<p class=MsoNormal>Documents having the media type 'application/akn+xml' use a
+fragment identifier notation totally consistent with what is specified in
+[RFC7303] for the media type 'application/xml'.</p>
+
+<h2><a name="_Toc417907377"></a><a name="_Toc288838221">2.7 Restrictions on
+usage</a></h2>
+
+<p class=MsoNormal>None</p>
+
+<h2><a name="_Toc417907378"></a><a name="_Toc288838222">2.8 Provisional
+registration</a></h2>
+
+<p class=MsoNormal><span lang=EN-GB>We kindly request provisional registration
+for application/akn+xml</span></p>
+
+<h2><a name="_Toc417907379"></a><a name="_Toc288838223">2.9 Additional
+information</a></h2>
+
+<p class=MsoNormal>1. Deprecated alias names for this type : None</p>
+
+<p class=MsoNormal>2. Magic number(s) : There is no single initial octet
+sequence that is always</p>
+
+<p class=MsoNormal>3. File extension(s) : Akoma Ntoso documents are most often
+identified with the extension .akn or .xml.</p>
+
+<p class=MsoNormal>4. Macintosh file type code : TEXT</p>
+
+<p class=MsoNormal>5. Object Identifiers: None</p>
+
+<h2><a name="_Toc417907380"></a><a name="_Toc288838224">2.10 Preliminary
+Community Review</a></h2>
+
+<p class=MsoNormal>Preliminary Community Review was obtained in August 2014,
+with a mail to media-types@iana.org, id:
+http://www.ietf.org/mail-archive/web/media-types/current/msg00587.html , that
+received no comments.</p>
+
+<h2><a name="_Toc417907381"></a><a name="_Toc288838225">2.11 Intended usage</a></h2>
+
+<p class=MsoNormal>Common</p>
+
+<h2><a name="_Toc417907382"></a><a name="_Toc288838226">2.12 Persons to contact
+for further information :</a></h2>
+
+<p class=MsoNormal><span lang=IT>1. Name : Fabio Vitali or Monica Palmirani</span></p>
+
+<p class=MsoNormal>2. Email : fabio.vitali@unibo.it or
+monica.palmirani@unibo.it</p>
+
+<h2><a name="_Toc417907383"></a><a name="_Toc288838227">2.13 Author/Change
+controllers</a> </h2>
+
+<h3><a name="_Toc417907384"></a><a name="_Toc288838228">2.13.1 Authors</a></h3>
+
+<p class=MsoNormal><span lang=IT>1. Name : Fabio Vitali or Monica Palmirani</span></p>
+
+<p class=MsoNormal>2. Email : fabio.vitali@unibo.it or <a
+href="mailto:monica.palmirani@unibo.it">monica.palmirani@unibo.it</a></p>
+
+<h3><a name="_Toc417907385"></a><a name="_Toc288838229">2.13.2 Change
+Controllers</a></h3>
+
+<p class=MsoNormal>OASIS has change control over these specifications.</p>
+
+<p class=MsoNormal><span lang=EN-GB>&nbsp;</span></p>
+
+<div style='border:none;border-top:solid gray 1.0pt;padding:6.0pt 0in 0in 0in'>
+
+<h1><a name="_Toc417907386"></a><a name="_Toc288838230"></a><a
+name="_Toc287332011">3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Conformance</a></h1>
+
+</div>
+
+<p class=MsoNormal>This chapter provides no conformance clauses.</p>
+
+<div style='border:none;border-top:solid gray 1.0pt;padding:6.0pt 0in 0in 0in'>
+
+<p class=AppendixHeading1><a name="_Toc417907387"></a><a name="_Toc288838231"></a><a
+name="_Toc287332012"></a><a name="_Toc85472897">Appendix A. Acknowledgments</a></p>
+
+</div>
+
+<p class=MsoNormal>The following individuals have participated in the creation
+of this specification and are gratefully acknowledged:</p>
+
+<p class=Titlepageinfo>Participants:</p>
+
+<p class=ContributorCxSpFirst>Aisenberg, Michael, Mitre Corporation</p>
+
+<p class=ContributorCxSpMiddle>Arocena, María de la Paz, Uruguay Parliament</p>
+
+<p class=ContributorCxSpMiddle>Barysheva, Nataliya, LexisNexis a Division of
+Reed Elsevier</p>
+
+<p class=ContributorCxSpMiddle>Bbaale, Fred, Uganda Parliament</p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Beatch, Richard, Bloomberg
+Finance L.P.</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=IT>Bennett, Daniel, Individual Member</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=IT>Briotti, Giuseppe, Senato della
+Repubblica d’Italia</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Bruce, Tom, Cornell Law School,
+Legal Information Institute</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=FR>Cabral, James, MTG Management
+Consultants, LLC.</span></p>
+
+<p class=ContributorCxSpMiddle>Dohaini, Bassel, Lebanese Parliament</p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Dunning, John, LexisNexis a
+Division of Reed Elsevier</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Fabiani, Claudio, EU Parliament</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Ferguson, Kimberly, Library of
+Congress</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Ferreira, Daniel, </span>Uruguay
+Parliament</p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Fiagome, Shirley-Ann, Ghana
+Parliament</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Gheen, Tina, Library of
+Congress</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Greenwood, Dazza, M.I.T.</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Hardjono, Thoma, M.I.T.</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Hariharan, Ashok, Africa
+i-Parliaments Action Plan (UN/DESA)</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Harris, Jim, National Center
+for State Courts</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Joergensen, John, Cornell Law
+School, Legal Information Institute</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Junge, Peter, Beijing Sursen
+Electronic Technology Co, Ltd.</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Khamis, Mr. Maan, LexisNexis a
+Division of Reed Elsevier</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=IT>Marchetti, Carlo, Senato della
+Repubblica d’Italia</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Mattocks, Carl, Individual
+Member</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Murungi, Michael, Kenya
+National Council for Law Reporting</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=IT>Otto Eridan, Biblioteca del
+Congreso Nacional de Chile</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=IT>Palmirani, Monica, University of
+Bologna</span></p>
+
+<p class=ContributorCxSpMiddle><span class=MsoHyperlink><span lang=FR
+style='color:black'>Parisse</span></span><span lang=FR>, </span><span
+class=MsoHyperlink><span lang=FR style='color:black'>Véronique, </span></span><span
+lang=FR>Aubay S.A.</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Petri, Steve, LexisNexis a
+Division of Reed Elsevier</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Pham, Kim, US Military Health
+Services</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Ramsahye-Rakha, Saseeta, Mauritius
+National Assembly</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Sandoval, Alvaro, Biblioteca
+del Congreso Nacional de Chile</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Shifrin, Laurel, LexisNexis a
+Division of Reed Elsevier</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Sifaqui, Christian, Biblioteca
+del Congreso Nacional de Chile</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Sosa, Raquel, </span>Uruguay
+Parliament</p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Sperberg, Roger, LexisNexis a
+Division of Reed Elsevier</span></p>
+
+<p class=ContributorCxSpMiddle>Tosar Piaggio, Sylvia, Uruguay Parliament</p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Vergottini, Grant, Xcential
+Group, LLC.</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Vitali, Fabio, University of
+Bologna</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Waldt, Dale, LexisNexis a
+Division of Reed Elsevier</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Weber, Andrew, Library of
+Congress</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Wemer, Jason, Wells Fargo</span></p>
+
+<p class=ContributorCxSpMiddle><span lang=EN-GB>Wintermann, John, Bloomberg
+Finance L.P.</span></p>
+
+<p class=ContributorCxSpLast><span lang=IT>Zeni, Flavio, Africa i-Parliaments
+Action Plan (UN/DESA)</span></p>
+
+<div style='border:none;border-top:solid gray 1.0pt;padding:6.0pt 0in 0in 0in'>
+
+<p class=AppendixHeading1><a name="_Toc417907388"></a><a name="_Toc288838232"></a><a
+name="_Toc287332014"></a><a name="_Toc85472898">Appendix B. Revision History</a></p>
+
+</div>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=103 valign=top style='width:77.4pt;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Revision</b></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Date</b></p>
+  </td>
+  <td width=129 valign=top style='width:97.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Editor</b></p>
+  </td>
+  <td width=310 valign=top style='width:232.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b>Changes Made</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=103 valign=top style='width:77.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>[01]</p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>[19/03/2015]</p>
+  </td>
+  <td width=129 valign=top style='width:97.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>[Monica Palmirani]</p>
+  </td>
+  <td width=310 valign=top style='width:232.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>[First version]</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=103 valign=top style='width:77.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>[02]</p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>[24/03/2015]</p>
+  </td>
+  <td width=129 valign=top style='width:97.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>[Fabio Vitali]</p>
+  </td>
+  <td width=310 valign=top style='width:232.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>[Added specifications about security and privacy]</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
